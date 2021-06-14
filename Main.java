@@ -95,7 +95,7 @@ public class Main {
             } else if (polecenie.matches("[mp][0-9]{1,4}")) {
                 osiedle.wyswietlPomieszczenie(polecenie);
 
-            }  else if (polecenie.equals("przedmioty")) {
+            } else if (polecenie.equals("przedmioty")) {
                 przedmioty.forEach((prz) -> System.out.println(prz.krotkieInfo()));
             } else if (polecenie.matches("prz[0-9]{1,4}")) {
                 wyswietlPrzedmiot(polecenie, przedmioty);
